@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  postgres-for-identity:
+    image: postgres
+    container_name: postgres-for-identity
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - C:\Databases\postgress-to-identity:/var/lib/postgresql/data

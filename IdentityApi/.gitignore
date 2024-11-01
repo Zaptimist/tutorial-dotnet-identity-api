@@ -1,0 +1,52 @@
+# .NET
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.override.yml
+
+# PostgreSQL
+*.sql
+*.dump
+
+# Logs
+*.log
+logs/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Others
+debug/
